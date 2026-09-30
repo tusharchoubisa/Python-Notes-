@@ -1,0 +1,23 @@
+
+1. Output
+Output means displaying informationon the screen. Python uses the print()
+function for this.
+
+print("Hello, World!")
+print("I am learning Python.")
+
+Text must be placed inside quotation marks. You can use either double or
+single quotes:
+
+print("Hello", 'Hello') # you can print multiple values by
+separating them with commas
+Python can also print numbers and calculations
+:
+print(25)
+print(10 + 5)
+print(8 * 4)
+
+Output:
+25
+15
+32
