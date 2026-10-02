@@ -1,0 +1,39 @@
+Variables
+A variable is a named container used to store information.
+1
+name = "Shradha"
+age = 27
+marks = 99.5
+Here:
+name stores text.
+age stores a whole number.
+marks stores a decimal number.
+The = symbol assigns a value to a variable.
+You can use variables later in the program:
+name = "Shradha"
+age = 27
+print("My name is", name)
+print("I am", age, "years old.")
+The value of a variable can change:
+cgpa = 10
+print(cgpa)
+cgpa = 20
+print(cgpa)
+Commontypes of values
+student_name = "Aman" # String: text
+student_age = 18 # Integer: whole number
+percentage = 95 # Float: decimal number
+is_present = True # Boolean: True or False
+Variable-namingrules
+A variable name:
+Can contain letters, numbers and underscores.
+2
+Cannot begin with a number.
+Cannot contain spaces.
+Is case-sensitive: age and Age are different variables.
+Should clearly describe what it stores.
+student_name = "Aman" # Good
+studentName = "Aman" # Valid
+x = "Aman" # Valid, but unclear
+# 1name = "Aman" # Invalid: begins with a number
+# student name = "Aman" # Invalid: contains a space
