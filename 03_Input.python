@@ -1,0 +1,26 @@
+Input
+Input allows a user to enter information while a program is running. Python uses
+the input() function.
+name = input("Enter your name: ")
+print("Hello,", name)
+Example:
+Enter your name: Aarav
+Hello, Aarav
+The message inside input() tells the user what to enter.
+Inputis text by default
+The value returned by input() is normally a string, even if the user enters a
+number.
+age = input("Enter your age: ")
+print("You are", age, "years old.")
+To perform calculations, convert the input into a number:
+3
+age = int(input("Enter your age: "))
+next_age = age + 1
+print("Next year, you will be", next_age)
+Use:
+int() for whole numbers.
+float() for decimal numbers.
+price = float(input("Enter the price: "))
+quantity = int(input("Enter the quantity: "))
+total = price * quantity
+print("Total amount:", total)
