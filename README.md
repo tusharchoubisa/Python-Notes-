@@ -33,7 +33,7 @@ The purpose of this repository is to:
 ## 🛠️ Tools Used
 
 * Python
-* VS Code
+* Anaconda 
 * Git & GitHub
 
 ## 🚀 Learning Journey
